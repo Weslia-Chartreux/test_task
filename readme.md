@@ -35,7 +35,7 @@
 
 ## Пример использования API
 
-python
+```python
 import requests
 
 url = 'http://127.0.0.1:8000/signup'
@@ -46,7 +46,7 @@ response = requests.post(url, headers=headers, json=data)
 
 print(response.status_code) # Вывод кода статуса ответа сервера
 print(response.json()) # Вывод тела ответа в формате JSON
-
+```
 
 ## Запуск
 Для того чтобы запустить проект
