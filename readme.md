@@ -53,10 +53,6 @@ print(response.json()) # Вывод тела ответа в формате JSON
 ```sh
 $ docker-compose up -d --build
 ```
-Применить миграции
-```sh
-$ docker-compose exec backend aerich upgrade
-```
 
 ## Сваггер
 
